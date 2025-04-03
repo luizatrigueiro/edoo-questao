@@ -115,11 +115,14 @@ void processarGenoma(const string& entrada, const string& saida) {
 }
 
 int main() {
-    string entrada = "genoma.txt";
-    string saida = "saida.txt";
+    string entrada1 = "genoma.txt";
+    string saida1 = "saida.txt";
+    processarGenoma(entrada1, saida1);
 
-    processarGenoma(entrada, saida);
-
+    string entrada2 = "genoma2.txt";
+    string saida2 = "saida2.txt";
+    processarGenoma(entrada2, saida2);
+    
     cout << "Analise feita" << endl;
     return 0;
 }
